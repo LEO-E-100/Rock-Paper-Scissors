@@ -38,7 +38,7 @@ def move():
                 return player
         except ValueError:
             pass
-        print "Oops! Incorrect Input. Please enter 1, 2, or 3."
+        print "Incorrect Input. Please enter 1, 2, or 3."
 
 
 def result(player, computer):
@@ -54,7 +54,7 @@ def result(player, computer):
         print "Tie game."
     else:
         if rules[player] == computer:
-            print "Your are Victorious."
+            print "You are Victorious."
             player_score += 1
         else:
             print "You have been defeated."
@@ -66,7 +66,7 @@ def play_again():
     if answer in ("y", "Y", "yes", "Yes"):
         return answer
     else:
-        print "Thank you very much for playing our game. See you next time!"
+        print "Thank you for playing"
 
 
 def scores():
